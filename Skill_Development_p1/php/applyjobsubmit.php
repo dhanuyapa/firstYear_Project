@@ -16,6 +16,7 @@ include_once 'connection.php';
     mysqli_query($conn,$sql);
     {
         echo "Job Applied Successfully.";
+        
     }
    
    
