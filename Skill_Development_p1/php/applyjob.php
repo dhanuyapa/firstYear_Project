@@ -198,10 +198,22 @@
                 <button name="submit" class="bttn"onclick="alt()">Submit</button>
             </form>
             <script>
-                function alt(){
-                    alert("apply successfully")
-                }
-            </script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const jobApplicationForm = document.getElementById("jobApplicationForm");
+
+            jobApplicationForm.addEventListener("submit", function (e) {
+                e.preventDefault(); // Prevent the default form submission
+
+                // Perform your form data submission using AJAX or fetch API to applyjobsubmit.php
+                // For simplicity, we'll simulate a successful submission here
+                setTimeout(() => {
+                    alert("Application submitted successfully.");
+                    // After a successful submission, navigate to index.html
+                    window.location.href = "../index.html";
+                }, 2000); // Simulating a delay for demonstration purposes
+            });
+        });
+    </script>
         </div>
         
         <hr>
