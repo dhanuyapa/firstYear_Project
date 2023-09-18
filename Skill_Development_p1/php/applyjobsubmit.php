@@ -8,11 +8,12 @@ include_once 'connection.php';
     $province =$_POST["province"];  
     $email =$_POST["email"]; 
     $pnumber = $_POST["pnumber"]; 
+    $cname=$_POST["cname"];
     $jposition=$_POST["jposition"];
     
  
 
-    $sql = "INSERT INTO applyjob(`Full Name`, `Date of Birth`, `Current Address`, `City`, `Province`, `Email`, `Phone Number`,`Job Position`) VALUES ('$fullname','$dob' , '$Caddress','$City','$province','$email', '$pnumber','$jposition')";
+    $sql = "INSERT INTO applyjob(`Full Name`, `Date of Birth`, `Current Address`, `City`, `Province`, `Email`, `Phone Number`,`Job Position`) VALUES ('$fullname','$dob' , '$Caddress','$City','$province','$email', '$pnumber','$cname','$jposition')";
     mysqli_query($conn,$sql);
     {
         echo "Job Applied Successfully.";
