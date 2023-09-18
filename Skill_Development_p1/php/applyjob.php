@@ -125,8 +125,8 @@
     <body>
     <header class="header">
             <img src="../src/Capital_Labour__1_-removebg-preview.png" class="img1">
-            <a href="registration.php" class="btn1">Register</a>
-            <a href="src/login.php" class="btn2">Login</a>
+            <a href="./registration.php" class="btn1">Register</a>
+            <a href="../src/login.php" class="btn2">Login</a>
             <br><br><br>
             <div class="nnav">
                 <nav>
@@ -195,12 +195,11 @@
                 </div>
                 
                 <br><br>
-                <a href="registrationsubmit.php">
-                <button name="submit" class="bttn"onclick="alt()">Submit</button></a>
+                <button name="submit" class="bttn"onclick="alt()">Submit</button>
             </form>
             <script>
                 function alt(){
-                    window.location.href = "registrationsumit.php";
+                    alert("apply successfully")
                 }
             </script>
         </div>
