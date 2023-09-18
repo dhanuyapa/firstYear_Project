@@ -147,7 +147,7 @@
         </header><br>
         <div class="box1">
             <ul class="menubar">
-                <li><a class="a1" href="../tj.html">Trending Jobs</a></li>
+                <li><a class="a1" href=".../tj.html">Trending Jobs</a></li>
                 <li><a class="a1" href="../pj.html">Part Time</a></li>
                 <li><a class="a1" href="../full_timee.html">Full Time</a></li>
                 <li><a class="a1" href="../online_jobs.html">Online Jobs</a></li>
@@ -184,6 +184,11 @@
                 <div class="f2">
                     <label>Phone Number: </label>
                     <input type="text" name="pnumber" placeholder="phone number" id="pnum" required>
+                </div><br>
+
+                <div class="f2">
+                    <label>Company Name: </label>
+                    <input type="text" name="cname" placeholder="Company Name" id="cname" required>
                 </div><br>
                 <div class="f2">
                     <label>Job Position: </label>

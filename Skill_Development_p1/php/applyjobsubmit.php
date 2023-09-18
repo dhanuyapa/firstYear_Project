@@ -13,7 +13,7 @@ include_once 'connection.php';
     
  
 
-    $sql = "INSERT INTO applyjob(`Full Name`, `Date of Birth`, `Current Address`, `City`, `Province`, `Email`, `Phone Number`,`Job Position`) VALUES ('$fullname','$dob' , '$Caddress','$City','$province','$email', '$pnumber','$cname','$jposition')";
+    $sql = "INSERT INTO applyjob(`Full Name`, `Date of Birth`, `Current Address`, `City`, `Province`, `Email`, `Phone Number`,`cname`,Job Position`) VALUES ('$fullname','$dob' , '$Caddress','$City','$province','$email', '$pnumber','$cname','$jposition')";
     mysqli_query($conn,$sql);
     {
         echo "Job Applied Successfully.";
