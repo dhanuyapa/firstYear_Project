@@ -125,8 +125,8 @@
     <body>
     <header class="header">
             <img src="../src/Capital_Labour__1_-removebg-preview.png" class="img1">
-            <a href="./registration.php" class="btn1">Register</a>
-            <a href="../src/login.php" class="btn2">Login</a>
+            <a href="../registration.php" class="btn1">Register</a>
+            <a href="./src/login.php" class="btn2">Login</a>
             <br><br><br>
             <div class="nnav">
                 <nav>
@@ -147,7 +147,7 @@
         </header><br>
         <div class="box1">
             <ul class="menubar">
-                <li><a class="a1" href=".../tj.html">Trending Jobs</a></li>
+                <li><a class="a1" href="../tj.html">Trending Jobs</a></li>
                 <li><a class="a1" href="../pj.html">Part Time</a></li>
                 <li><a class="a1" href="../full_timee.html">Full Time</a></li>
                 <li><a class="a1" href="../online_jobs.html">Online Jobs</a></li>
@@ -205,6 +205,7 @@
             <script>
                 function alt(){
                     alert("apply successfully")
+                    window.location.href = "index.html";
                 }
             </script>
         </div>
